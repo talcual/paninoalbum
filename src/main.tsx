@@ -11,7 +11,7 @@ import Equipo from "./components/panel/Equipo";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <PublicHome />,
+    Component: PublicHome,
   },
   {
     path: "/panel",
